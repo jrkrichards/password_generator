@@ -7,9 +7,10 @@ function writePassword() {
   let passwordText = document.querySelector("#password");
 
   passwordText.value = password;
-  let 
-
 }
+
+// Prompts to get user password preferences
+
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
