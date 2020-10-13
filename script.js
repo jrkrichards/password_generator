@@ -14,7 +14,15 @@ function generatePassword () {
   // password values
   let characters = ""
 
-  
+  let size
+  while (true) {
+    size = prompt("What is the required password length? Must be between 8 and 128.");
+    if (size > 7 && size < 129) {
+      break;
+    }
+    alert("Password length must be 8 - 128 characters.");
+  }
+  alert("Your password will be "+size+" characters");
 }
 
 // Add event listener to generate button
