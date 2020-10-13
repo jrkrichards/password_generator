@@ -25,5 +25,28 @@ function generatePassword () {
   alert("Your password will be "+size+" characters");
 }
 
+// Prompt for uppercase characters
+let upper
+while (true) {
+  upper = prompt("Do you want uppercase characters? (Yes/No)");
+  if (upper.toLowerCase() == "yes") {
+    break;
+    
+  }
+  else if (upper.toLowerCase() == "no") {
+    break;
+  }
+  alert("Must select Yes or No.");
+}
+
+if (upper.toLowerCase() == "yes") {
+  characters = characters + "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+  alert("Uppercase characters will be inlcuded in your password.")
+}
+else {
+  alert("Uppercase charaters will not be inlcuded in your password.")
+}
+
+
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
