@@ -10,7 +10,12 @@ function writePassword() {
 }
 
 // Prompts to get user password preferences
+function generatePassword () {
+  // password values
+  let characters = ""
 
+  
+}
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
