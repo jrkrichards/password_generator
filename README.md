@@ -12,30 +12,25 @@ The password generator will validate each user response and if the response is v
 
 ### Available Characters
 
-lowercase characters include - "abcdefghijklmnopqrstuvwxyz"
-uppercase characters include - "ABCDEFGHIJKLMNOPQRSTUVWXYZ
-number characters include - "0123456789"
-special characters include - "!#\$%&\*+-.:?@^`~"
+- Lowercase characters include - "abcdefghijklmnopqrstuvwxyz"
+- Uppercase characters include - "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+- Number characters include - "0123456789"
+- Special characters include - "!#\$%&+-.:?@^`~"
 
 ## Website Mock
 
 Website URL: https://jrkrichards.github.io/password_generator/
 
-### Password:
+### Password Generator:
 
-Home Page:
-![Image of Home Page](./Assets/Images/Home_Page.PNG)
+Start:
+![Image of Start](./Assets/Start.PNG)
 
-Portfolio Page:
-![Image of Portfolio Page](./Assets/Images/Portfolio_Page_1.PNG)
+Length:
+![Image of Length Prompt](./Assets/Length.PNG)
 
-Contact Page:
-![Image of Contact Page](./Assets/Images/Contact_Page.PNG)
+Characters:
+![Image of Character Prompt](./Assets/Characters.PNG)
 
-### Pages Responsive:
-
-<p float="left">
-  <img src="./Assets/Images/Home_Page_sm.PNG" width="32%" />
-  <img src="./Assets/Images/Portfolio_Page_1_sm.PNG" width="32%" /> 
-  <img src="./Assets/Images/Contact_Page_sm.PNG" width="32%" />
-</p>
+End:
+![Image of End](./Assets/End.PNG)
